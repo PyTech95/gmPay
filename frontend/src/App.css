@@ -1,0 +1,19 @@
+.App {
+  min-height: 100vh;
+  background: #000;
+}
+
+.gold-gradient {
+  background: linear-gradient(180deg, #f7d774 0%, #f0c33c 100%);
+}
+
+.marquee-track {
+  display: inline-block;
+  white-space: nowrap;
+  padding-left: 100%;
+  animation: marquee 28s linear infinite;
+}
+@keyframes marquee {
+  0% { transform: translateX(0); }
+  100% { transform: translateX(-100%); }
+}
