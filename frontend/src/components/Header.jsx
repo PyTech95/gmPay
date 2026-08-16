@@ -17,7 +17,13 @@ const Header = () => {
           <CityBadge label={COMPANY.cities[0]} />
         </div>
 
-        <div className="flex flex-1 items-center justify-center gap-3">
+        <div className="flex flex-1 items-center justify-center gap-3 sm:gap-4">
+          <img
+            src={LOGO_URL}
+            alt="1gmPay logo"
+            data-testid="brand-logo"
+            className="h-14 w-14 sm:h-20 sm:w-20 rounded-full object-contain drop-shadow-[0_0_14px_rgba(240,195,60,0.35)]"
+          />
           <div className="text-center">
             <h1 className="leading-tight">
               <span className="block pb-1 text-4xl sm:text-6xl font-extrabold tracking-tight leading-[1.15] bg-gradient-to-b from-[#f9e39a] to-[#e0a92a] bg-clip-text text-transparent drop-shadow-[0_1px_0_rgba(0,0,0,0.4)]">

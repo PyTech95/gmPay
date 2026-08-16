@@ -1,7 +1,6 @@
 // Mock data + localStorage-backed store for SHRI SILVER TECHNOLOGIES live rates clone
 
-export const LOGO_URL =
-  "https://customer-assets-eiarnc6j.emergentagent.net/job_537ef3e9-ca80-499f-bbaa-71ea1abff481/artifacts/njuk8da0_image.png";
+export const LOGO_URL = "/logo.png";
 
 export const COMPANY = {
   name: "SHRI SILVER TECHNOLOGIES",
